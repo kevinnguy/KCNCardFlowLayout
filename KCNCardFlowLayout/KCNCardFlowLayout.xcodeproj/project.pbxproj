@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1EA9341BA781EC0099E033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA9331BA781EC0099E033 /* main.m */; };
+		0A1EA9371BA781EC0099E033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA9361BA781EC0099E033 /* AppDelegate.m */; };
+		0A1EA93A1BA781EC0099E033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA9391BA781EC0099E033 /* ViewController.m */; };
+		0A1EA93D1BA781EC0099E033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1EA93B1BA781EC0099E033 /* Main.storyboard */; };
+		0A1EA93F1BA781EC0099E033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1EA93E1BA781EC0099E033 /* Images.xcassets */; };
+		0A1EA9421BA781EC0099E033 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A1EA9401BA781EC0099E033 /* LaunchScreen.xib */; };
+		0A1EA94E1BA781EC0099E033 /* KCNCardFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA94D1BA781EC0099E033 /* KCNCardFlowLayoutTests.m */; };
+		0A1EA95C1BA7820D0099E033 /* KCNCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA9591BA7820D0099E033 /* KCNCardFlowLayout.m */; };
+		0A1EA95D1BA7820D0099E033 /* KCNLargeCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EA95B1BA7820D0099E033 /* KCNLargeCardFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A1EA9481BA781EC0099E033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1EA9261BA781EC0099E033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1EA92D1BA781EC0099E033;
+			remoteInfo = KCNCardFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1EA92E1BA781EC0099E033 /* KCNCardFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCNCardFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1EA9321BA781EC0099E033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1EA9331BA781EC0099E033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A1EA9351BA781EC0099E033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A1EA9361BA781EC0099E033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A1EA9381BA781EC0099E033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A1EA9391BA781EC0099E033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A1EA93C1BA781EC0099E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A1EA93E1BA781EC0099E033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A1EA9411BA781EC0099E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A1EA9471BA781EC0099E033 /* KCNCardFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCNCardFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1EA94C1BA781EC0099E033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1EA94D1BA781EC0099E033 /* KCNCardFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCNCardFlowLayoutTests.m; sourceTree = "<group>"; };
+		0A1EA9581BA7820D0099E033 /* KCNCardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNCardFlowLayout.h; sourceTree = "<group>"; };
+		0A1EA9591BA7820D0099E033 /* KCNCardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNCardFlowLayout.m; sourceTree = "<group>"; };
+		0A1EA95A1BA7820D0099E033 /* KCNLargeCardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNLargeCardFlowLayout.h; sourceTree = "<group>"; };
+		0A1EA95B1BA7820D0099E033 /* KCNLargeCardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNLargeCardFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1EA92B1BA781EC0099E033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1EA9441BA781EC0099E033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1EA9251BA781EC0099E033 = {
+			isa = PBXGroup;
+			children = (
+				0A1EA9571BA781F20099E033 /* Classes */,
+				0A1EA9301BA781EC0099E033 /* KCNCardFlowLayout */,
+				0A1EA94A1BA781EC0099E033 /* KCNCardFlowLayoutTests */,
+				0A1EA92F1BA781EC0099E033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1EA92F1BA781EC0099E033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA92E1BA781EC0099E033 /* KCNCardFlowLayout.app */,
+				0A1EA9471BA781EC0099E033 /* KCNCardFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1EA9301BA781EC0099E033 /* KCNCardFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA9351BA781EC0099E033 /* AppDelegate.h */,
+				0A1EA9361BA781EC0099E033 /* AppDelegate.m */,
+				0A1EA9381BA781EC0099E033 /* ViewController.h */,
+				0A1EA9391BA781EC0099E033 /* ViewController.m */,
+				0A1EA93B1BA781EC0099E033 /* Main.storyboard */,
+				0A1EA93E1BA781EC0099E033 /* Images.xcassets */,
+				0A1EA9401BA781EC0099E033 /* LaunchScreen.xib */,
+				0A1EA9311BA781EC0099E033 /* Supporting Files */,
+			);
+			path = KCNCardFlowLayout;
+			sourceTree = "<group>";
+		};
+		0A1EA9311BA781EC0099E033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA9321BA781EC0099E033 /* Info.plist */,
+				0A1EA9331BA781EC0099E033 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A1EA94A1BA781EC0099E033 /* KCNCardFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA94D1BA781EC0099E033 /* KCNCardFlowLayoutTests.m */,
+				0A1EA94B1BA781EC0099E033 /* Supporting Files */,
+			);
+			path = KCNCardFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		0A1EA94B1BA781EC0099E033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA94C1BA781EC0099E033 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A1EA9571BA781F20099E033 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A1EA9581BA7820D0099E033 /* KCNCardFlowLayout.h */,
+				0A1EA9591BA7820D0099E033 /* KCNCardFlowLayout.m */,
+				0A1EA95A1BA7820D0099E033 /* KCNLargeCardFlowLayout.h */,
+				0A1EA95B1BA7820D0099E033 /* KCNLargeCardFlowLayout.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1EA92D1BA781EC0099E033 /* KCNCardFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1EA9511BA781EC0099E033 /* Build configuration list for PBXNativeTarget "KCNCardFlowLayout" */;
+			buildPhases = (
+				0A1EA92A1BA781EC0099E033 /* Sources */,
+				0A1EA92B1BA781EC0099E033 /* Frameworks */,
+				0A1EA92C1BA781EC0099E033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCNCardFlowLayout;
+			productName = KCNCardFlowLayout;
+			productReference = 0A1EA92E1BA781EC0099E033 /* KCNCardFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A1EA9461BA781EC0099E033 /* KCNCardFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1EA9541BA781EC0099E033 /* Build configuration list for PBXNativeTarget "KCNCardFlowLayoutTests" */;
+			buildPhases = (
+				0A1EA9431BA781EC0099E033 /* Sources */,
+				0A1EA9441BA781EC0099E033 /* Frameworks */,
+				0A1EA9451BA781EC0099E033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1EA9491BA781EC0099E033 /* PBXTargetDependency */,
+			);
+			name = KCNCardFlowLayoutTests;
+			productName = KCNCardFlowLayoutTests;
+			productReference = 0A1EA9471BA781EC0099E033 /* KCNCardFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1EA9261BA781EC0099E033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = kevinnguy;
+				TargetAttributes = {
+					0A1EA92D1BA781EC0099E033 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0A1EA9461BA781EC0099E033 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0A1EA92D1BA781EC0099E033;
+					};
+				};
+			};
+			buildConfigurationList = 0A1EA9291BA781EC0099E033 /* Build configuration list for PBXProject "KCNCardFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1EA9251BA781EC0099E033;
+			productRefGroup = 0A1EA92F1BA781EC0099E033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1EA92D1BA781EC0099E033 /* KCNCardFlowLayout */,
+				0A1EA9461BA781EC0099E033 /* KCNCardFlowLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1EA92C1BA781EC0099E033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1EA93D1BA781EC0099E033 /* Main.storyboard in Resources */,
+				0A1EA9421BA781EC0099E033 /* LaunchScreen.xib in Resources */,
+				0A1EA93F1BA781EC0099E033 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1EA9451BA781EC0099E033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1EA92A1BA781EC0099E033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1EA93A1BA781EC0099E033 /* ViewController.m in Sources */,
+				0A1EA95D1BA7820D0099E033 /* KCNLargeCardFlowLayout.m in Sources */,
+				0A1EA9371BA781EC0099E033 /* AppDelegate.m in Sources */,
+				0A1EA95C1BA7820D0099E033 /* KCNCardFlowLayout.m in Sources */,
+				0A1EA9341BA781EC0099E033 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1EA9431BA781EC0099E033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1EA94E1BA781EC0099E033 /* KCNCardFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A1EA9491BA781EC0099E033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1EA92D1BA781EC0099E033 /* KCNCardFlowLayout */;
+			targetProxy = 0A1EA9481BA781EC0099E033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A1EA93B1BA781EC0099E033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1EA93C1BA781EC0099E033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A1EA9401BA781EC0099E033 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1EA9411BA781EC0099E033 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A1EA94F1BA781EC0099E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A1EA9501BA781EC0099E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1EA9521BA781EC0099E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCNCardFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A1EA9531BA781EC0099E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCNCardFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A1EA9551BA781EC0099E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KCNCardFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNCardFlowLayout.app/KCNCardFlowLayout";
+			};
+			name = Debug;
+		};
+		0A1EA9561BA781EC0099E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KCNCardFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNCardFlowLayout.app/KCNCardFlowLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1EA9291BA781EC0099E033 /* Build configuration list for PBXProject "KCNCardFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1EA94F1BA781EC0099E033 /* Debug */,
+				0A1EA9501BA781EC0099E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1EA9511BA781EC0099E033 /* Build configuration list for PBXNativeTarget "KCNCardFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1EA9521BA781EC0099E033 /* Debug */,
+				0A1EA9531BA781EC0099E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A1EA9541BA781EC0099E033 /* Build configuration list for PBXNativeTarget "KCNCardFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1EA9551BA781EC0099E033 /* Debug */,
+				0A1EA9561BA781EC0099E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1EA9261BA781EC0099E033 /* Project object */;
+}
